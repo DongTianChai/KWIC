@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/GUIForKWICMain.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/主程序子程序软件体系结构/demo1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/事件系统软件体系结构/Alphabetizer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/事件系统软件体系结构/Input.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/事件系统软件体系结构/KWICSubject.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/事件系统软件体系结构/Main.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/事件系统软件体系结构/Observer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/事件系统软件体系结构/Output.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/事件系统软件体系结构/Shift.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/事件系统软件体系结构/Subject.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/管道过滤软件体系结构/Alphabetizer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/管道过滤软件体系结构/Filter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/管道过滤软件体系结构/Input.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/管道过滤软件体系结构/Main.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/管道过滤软件体系结构/Output.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/管道过滤软件体系结构/Pipe.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/管道过滤软件体系结构/Shift.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/面向对象软件体系结构/Alphabetizer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/面向对象软件体系结构/Input.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/面向对象软件体系结构/Main.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/面向对象软件体系结构/Output.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/软件体系结构/面向对象软件体系结构/Shift.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
