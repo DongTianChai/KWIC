@@ -13,6 +13,7 @@ import java.nio.file.Paths;
 
 public class GUIForKWICMain extends JFrame {
 
+
     private JTextArea inputTextArea;
     private JTextArea outputTextArea;
     private JButton methodOneButton;
@@ -26,6 +27,9 @@ public class GUIForKWICMain extends JFrame {
         setSize(800, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
+        initializeFiles();
+
+
 
         inputTextArea = new JTextArea(10, 40);
         // 允许编辑
@@ -133,9 +137,34 @@ public class GUIForKWICMain extends JFrame {
     }
 
     public static void main(String[] args) {
+
         SwingUtilities.invokeLater(() -> {
             GUIForKWICMain gui = new GUIForKWICMain();
             gui.setVisible(true);
         });
+    }
+    private  void initializeFiles() {
+        File inputFile = new File("E:\\input.txt");
+        File outputFile = new File("E:\\output.txt");
+
+        if (!inputFile.exists()) {
+            try {
+                // 如果文件不存在，则创建新文件
+                inputFile.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+                JOptionPane.showMessageDialog(this, "创建输入文件时出错");
+            }
+        }
+
+        if (!outputFile.exists()) {
+            try {
+                // 如果文件不存在，则创建新文件
+                outputFile.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+                JOptionPane.showMessageDialog(this, "创建输出文件时出错");
+            }
+        }
     }
 }
